@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -8,6 +8,7 @@
  * 3 & 5 print FizzBuzz
  * Return Always 0
  */
+
 int main(void)
 {
 	int i;
@@ -19,7 +20,7 @@ int main(void)
 	{
 		if (i == 100)
 			printf("%s", b);
-		else if ((i % 3 == 0 && (i % 5 == 0)))
+		else if ((i % 3 == 0) && (i % 5 == 0))
 			printf("%s", fb);
 		else if (i % 3 == 0)
 			printf("%s", f);
