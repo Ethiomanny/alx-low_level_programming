@@ -9,9 +9,9 @@
  * Return:always 0 (success)
  */
 
-int main (void)
+int main(void)
 {
-	int i, sum n;
+	int i, sum, n;
 	int pass[100];
 
 	sum = 0;
